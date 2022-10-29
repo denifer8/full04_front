@@ -1,0 +1,52 @@
+.cuadroVuelo{
+    /* display:grid; */
+    padding: 8px;
+    margin: 15px;
+    border-color: rgb(154, 153, 153);
+    border-style: solid;
+    box-shadow: -2px 2px 4px rgb(191, 154, 154);
+    /* background-color: rgb(201, 98, 98); */
+    border-radius:10px;
+}
+.cuadroIdaVuelta{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100px;
+}
+.bloquePrecio{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+.botonSelect{
+    background-color: green;
+    color: aliceblue;
+}
+.cuadroBoton{
+    text-align: right;
+}
+.lineHours{
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+}
+.directo{
+    color: green;
+}
+.escalas{
+    color: red;
+}
+@media screen and (max-width:500px) {
+    .cuadroIdaVuelta{
+        display: grid;
+        grid-template-columns: 12% 88%;
+        height: 100px;
+    }
+    .cuadroVuelo{
+        /* display:grid; */
+        padding: 2px;
+        margin: 4px;
+        box-shadow: 1px;
+        font-size: 10px;
+        border-radius:5%;
+    }
+    
+}
